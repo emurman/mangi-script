@@ -37,7 +37,7 @@ sudo tlp stat
 
 # Aliases
 echo "alias vpn='sudo openvpn /etc/openvpn/ovpn_tcp/se124.nordvpn.com.tcp.ovpn " >> ~/.bashrc
-echo "alias ccvol='python3 ~/util/cc/main.py --host 192.168.86.44 --volume '" >> ~/.bashrc
+echo "alias ccvol='python3 ~/util/cc/ccvol.py --host 192.168.86.44 --volume '" >> ~/.bashrc
 
 # Yakuake
 mkdir ~/.config/autostart
