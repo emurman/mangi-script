@@ -56,3 +56,7 @@ mkdir ~/util
 mkdir ~/util/cc
 mv ccvol.py ~/util/cc/
 pip3 install pychromecast
+
+# Clean up
+cd ..
+rm -rf mangi-script/
