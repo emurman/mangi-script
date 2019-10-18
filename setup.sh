@@ -36,8 +36,8 @@ sudo tlp start
 sudo tlp stat
 
 # Aliases
-echo "alias vpn='sudo openvpn /etc/openvpn/ovpn_tcp/se124.nordvpn.com.tcp.ovpn " >> ~/.bashrc
-echo "alias ccvol='python3 ~/util/cc/ccvol.py --host 192.168.86.44 --volume '" >> ~/.bashrc
+echo "alias vpn='sudo openvpn /etc/openvpn/ovpn_tcp/se124.nordvpn.com.tcp.ovpn'" >> ~/.bash_aliases
+echo "alias ccvol='python3 ~/util/cc/ccvol.py --host 192.168.86.44 --volume '" >> ~/.bash_aliases
 
 # Yakuake
 mkdir ~/.config/autostart
@@ -53,6 +53,6 @@ mkdir ~/projects
 mkdir ~/util
 
 # CC vol
-mkdir ~/util/ccvol
-mv ccvol.py ~/util/ccvol/
+mkdir ~/util/cc
+mv ccvol.py ~/util/cc/
 pip3 install pychromecast
